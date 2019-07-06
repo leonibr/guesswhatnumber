@@ -10,7 +10,7 @@
 
 <ul>
   <li>
-    <h2>{{myNumber?.length > 0 ? 'Do you want to pick ' + myNumber + '?' : 'Inform a number' }}
+    <h2>{{myNumber?.toString().length > 0 ? 'Do you want to pick ' + myNumber + '?' : 'Inform a number' }}
     </h2>
   </li>
   <li *ngFor="let g of guesses">
